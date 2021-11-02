@@ -1,3 +1,3 @@
 javascript:void((function(){
-  location.href='https://ezproxy.csu.edu.au/login?qurl=%27+encodeURIComponent(location.href);
+  window.open("https://ezproxy.csu.edu.au/login?url="+encodeURIComponent(location.href));
 })());
